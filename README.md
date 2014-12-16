@@ -52,10 +52,10 @@ Ok so to explain shortly for what i use these libraries:
 
 ##Setup
 
-This setup assumes that you have **npm** and **gulp** installed globally.
+This setup assumes that you have **npm**, **bower**, **gulp** installed globally.
 
 
-1. To install all the packages required by this boilerplate run `npm install` in the directory where the source code was cloned/downloaded.
+1. To install all the packages required by this boilerplate run `npm install && bower install` in the directory where the source code was cloned/downloaded.
 
 2.  *   To run the boilerplate code in **development mode** run `gulp`
     *   To compile a **build** run `gulp build`
