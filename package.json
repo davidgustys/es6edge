@@ -1,6 +1,6 @@
 {
-  "name": "selory-mobile",
-  "version": "1.0.0",
+  "name": "es6edge",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "browser": {
@@ -30,6 +30,7 @@
     "brfs": "^1.2.0",
     "browser-sync": "^1.6.5",
     "browserify": "^6.3.2",
+    "browserify-shim": "^3.8.1",
     "cordova": "^4.1.2",
     "cssify": "^0.6.0",
     "cssy": "^0.4.0",
