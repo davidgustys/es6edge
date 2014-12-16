@@ -1,9 +1,4 @@
-//require('./deps'); //include all dependencies
-
-
 import Router from './router';
-
-//var Router = require('./router');
 
 class Application {
 
