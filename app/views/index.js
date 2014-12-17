@@ -1,9 +1,7 @@
-var fs = require('fs');
-
+var Fs = require('fs');
 
 
 class IndexView extends Backbone.View {
-
 
     constructor(vars = {}) {
 
@@ -12,9 +10,9 @@ class IndexView extends Backbone.View {
 
     }
 
-
     initialize() {
-        this.template = fs.readFileSync(__dirname + '/../templates/index.html', 'utf8');
+
+        this.template = Fs.readFileSync(__dirname + '/../templates/index.html', 'utf8');
 
         this.events = {
             "click #add-left-button": "addButton"
@@ -23,21 +21,18 @@ class IndexView extends Backbone.View {
     }
 
     render() {
+
         this.$el.html(_.template(this.template, this.vars))
         return this;
+
     }
 
     addButton(event) {
 
-
         let leftMenu = $('#left-menu');
         leftMenu.append($('<core-item icon="settings" label="item' + (leftMenu.children().length + 1) + '"></core-item>'));
 
-
     }
-
-
-
 
 }
 

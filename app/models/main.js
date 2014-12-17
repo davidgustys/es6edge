@@ -18,4 +18,4 @@ class Application extends Backbone.Model {
   }
 }
 
-export default Human;
+export default Application;
